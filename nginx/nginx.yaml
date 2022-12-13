@@ -6,11 +6,5 @@ metadata:
     name: nginx
 spec:
   containers:
-  - name: nginx
+  - name: nginx-cont
     image: nginx:1.10
-    resources:
-      limits:
-        memory: "128Mi"
-        cpu: "500m"
-    ports:
-      - containerPort: 80
